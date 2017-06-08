@@ -12,7 +12,8 @@
 		7531D1F91EE8424B00945C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7531D1F71EE8424B00945C27 /* Main.storyboard */; };
 		7531D1FB1EE8424B00945C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7531D1FA1EE8424B00945C27 /* Assets.xcassets */; };
 		7531D1FE1EE8424B00945C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7531D1FC1EE8424B00945C27 /* LaunchScreen.storyboard */; };
-		7531D2091EE8424B00945C27 /* UnitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531D2081EE8424B00945C27 /* UnitTestTests.swift */; };
+		7531D2141EE8426700945C27 /* PlainMobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531D2131EE8426700945C27 /* PlainMobile.swift */; };
+		7531D2161EE8430C00945C27 /* PlainMobileFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531D2151EE8430C00945C27 /* PlainMobileFormTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7531D1F01EE8424B00945C27 /* UnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7531D1F01EE8424B00945C27 /* UnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = UnitTest.app; path = "/Users/maxisa/Documents/UnitTest/build/Debug-iphoneos/UnitTest.app"; sourceTree = "<absolute>"; };
 		7531D1F31EE8424B00945C27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7531D1F51EE8424B00945C27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7531D1F81EE8424B00945C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7531D1FA1EE8424B00945C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7531D1FD1EE8424B00945C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7531D1FF1EE8424B00945C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7531D2041EE8424B00945C27 /* UnitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7531D2081EE8424B00945C27 /* UnitTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestTests.swift; sourceTree = "<group>"; };
+		7531D2041EE8424B00945C27 /* UnitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = UnitTestTests.xctest; path = "/Users/maxisa/Documents/UnitTest/build/Debug-iphoneos/UnitTestTests.xctest"; sourceTree = "<absolute>"; };
 		7531D20A1EE8424B00945C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7531D2131EE8426700945C27 /* PlainMobile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlainMobile.swift; sourceTree = "<group>"; };
+		7531D2151EE8430C00945C27 /* PlainMobileFormTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlainMobileFormTests.swift; path = ../../../Desktop/PlainMobileFormTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,17 +63,7 @@
 			children = (
 				7531D1F21EE8424B00945C27 /* UnitTest */,
 				7531D2071EE8424B00945C27 /* UnitTestTests */,
-				7531D1F11EE8424B00945C27 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		7531D1F11EE8424B00945C27 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7531D1F01EE8424B00945C27 /* UnitTest.app */,
-				7531D2041EE8424B00945C27 /* UnitTestTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		7531D1F21EE8424B00945C27 /* UnitTest */ = {
@@ -79,6 +71,7 @@
 			children = (
 				7531D1F31EE8424B00945C27 /* AppDelegate.swift */,
 				7531D1F51EE8424B00945C27 /* ViewController.swift */,
+				7531D2131EE8426700945C27 /* PlainMobile.swift */,
 				7531D1F71EE8424B00945C27 /* Main.storyboard */,
 				7531D1FA1EE8424B00945C27 /* Assets.xcassets */,
 				7531D1FC1EE8424B00945C27 /* LaunchScreen.storyboard */,
@@ -90,7 +83,7 @@
 		7531D2071EE8424B00945C27 /* UnitTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				7531D2081EE8424B00945C27 /* UnitTestTests.swift */,
+				7531D2151EE8430C00945C27 /* PlainMobileFormTests.swift */,
 				7531D20A1EE8424B00945C27 /* Info.plist */,
 			);
 			path = UnitTestTests;
@@ -164,7 +157,7 @@
 				Base,
 			);
 			mainGroup = 7531D1E71EE8424B00945C27;
-			productRefGroup = 7531D1F11EE8424B00945C27 /* Products */;
+			productRefGroup = 7531D1E71EE8424B00945C27;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -200,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7531D1F61EE8424B00945C27 /* ViewController.swift in Sources */,
+				7531D2141EE8426700945C27 /* PlainMobile.swift in Sources */,
 				7531D1F41EE8424B00945C27 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,7 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7531D2091EE8424B00945C27 /* UnitTestTests.swift in Sources */,
+				7531D2161EE8430C00945C27 /* PlainMobileFormTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +402,7 @@
 				7531D20F1EE8424B00945C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7531D2101EE8424B00945C27 /* Build configuration list for PBXNativeTarget "UnitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +411,7 @@
 				7531D2121EE8424B00945C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
